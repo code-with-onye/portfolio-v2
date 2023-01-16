@@ -17,11 +17,13 @@ const Welcome = ({
 }: welcomeProps) => {
   return (
     <div className="flex flex-col sm:items-center items-start   w-full  sm:text-center  text-left">
-      <div className="px-4 py-1 bg-secondary text-primary text-xs font-semibold shadow-md rounded-3xl">
+      <div className="px-4 py-1 bg-secondary text-primary text-xs font-semibold shadow-md rounded-3xl ">
         {welcome}
       </div>
-      <div className="w-full flex flex-col items-center space-y-3 text-sm">
-        <h2 className="font-bold lg:text-5xl text-xl lg:w-[80%] ">{heading}</h2>
+      <div className="w-full flex flex-col items-center space-y-3 text-sm mt-8">
+        <h2 className="font-bold lg:text-5xl text-[2rem] lg:w-[80%] ">
+          {heading}
+        </h2>
         <p className=" lg:w-1/2 w-full tracking-wide leading-5">
           {description}
         </p>

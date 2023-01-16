@@ -17,7 +17,7 @@ const Button = ({ href, children, variant, size }: buttonProps) => {
         variant === "outline" && "  border-2  border-secondary",
         size === "sm" && " px-4 py-2",
         size === "lg" && "lg:px-16 lg:py-4 px-6 py-3",
-        "rounded uppercase text-xs tracking-wider font-semibold",
+        "rounded uppercase text-x s tracking-wider font-semibold",
       ])}
     >
       {children}
