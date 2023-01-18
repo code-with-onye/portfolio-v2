@@ -16,7 +16,7 @@ const Welcome = ({
   button2,
 }: welcomeProps) => {
   return (
-    <div className="flex flex-col sm:items-center items-start   w-full  sm:text-center  text-left">
+    <div className="flex flex-col sm:items-center items-start   w-full  sm:text-center  text-left ">
       <div className="px-4 py-1 bg-secondary text-primary text-xs font-semibold shadow-md rounded-3xl ">
         {welcome}
       </div>
